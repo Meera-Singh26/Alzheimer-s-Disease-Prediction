@@ -58,19 +58,3 @@ This project aims to classify different stages of **Alzheimer's Disease** using 
 - **Stratified K-Fold Cross Validation** used for robust evaluation
 
 ---
-
-## 🚀 How to Run
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/alzheimer-prediction.git
-cd alzheimer-prediction
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run training
-python train_model.py --model densenet
-
-# Predict new image
-python predict.py --image path/to/image.jpg
